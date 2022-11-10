@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap');
+
+*{
+  padding:0%;
+  margin:0%;
+}
+body{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.top {
+  text-align: center;
+  background-color:#5B3114;
+}
+
+.top img{
+  margin-top: 3rem;
+  border-radius: 50%;
+  width: 100px;
+  height:100px;
+  object-fit: cover;
+}
+
+.top h1{
+  font-weight: bold;
+  color: white;
+  font-size: 5rem;
+  padding: 1rem 0rem .5rem 0rem;
+}
+
+.top h2{
+  font-weight: normal;
+  color:white;
+  font-size: 4rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.top p{
+  color: white;
+  margin: 0 auto;
+  padding: 0rem 0rem 2rem 0rem;
+  width: 50%;
+}
+
+.top button{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  border: 0px transparent;
+  background-color: yellow;
+  padding: 1rem 4rem 1rem 4rem;
+  margin-bottom: 6.5rem;
+  transition: .3s;
+}
+
+.top button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    transition: .3s;
+}
+
+.mid-menu{
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
+
+.mid-menu a{
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+}
+
+.mid-menu a:hover{
+    color: purple;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.mid-menu p{
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  transition: .3s;
+}
+
+.mid-menu p:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.about{
+  background-image: url(https://i.ibb.co/vcZXTjz/003.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about img{
+  padding: 4rem 0rem 0rem 6rem;
+}
+
+.one{
+  color: white;
+  padding: 2rem 0rem 1rem 6rem;
+  width: 40%;
+}
+.two{
+  color: white;
+  padding: 2rem 0rem 2rem 6rem;
+  width: 40%;
+}
+
+.about button{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  background-color: brown;
+  border: 0px transparent;
+  color: white;
+  margin: 2rem 0rem 3rem 6rem;
+  padding: 1rem 4rem 1rem 4rem;
+  margin-bottom: 6.5rem;
+  transition: .3s;
+}
+
+.about button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+}
